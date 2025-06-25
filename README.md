@@ -1,4 +1,4 @@
-# 运动生物力学
+# 运动的生物力学
 
 原书电子版 [链接](https://github.com/OpenHUTB/move/issues/1s) 。
 
@@ -47,4 +47,4 @@
 
 ## 参考
 
-- [运动生物学（官方）课程](https://biomech.stanford.edu/) 
+- [运动的生物力学（官方）课程](https://biomech.stanford.edu/) 
