@@ -1,0 +1,19 @@
+name: Compile Latex
+
+
+on: [pull_request]
+
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v3
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: move.tex
+          texlive_version: 2025
+          latexmk_use_xelatex: true
+          
