@@ -19,7 +19,7 @@ jobs:
           latexmk_use_xelatex: true
           
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: move.pdf
         env:
