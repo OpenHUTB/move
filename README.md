@@ -53,7 +53,7 @@
 
 2.使用 [超分辨率工具](https://letsenhance.io/zh-CN/boost) 将原始不清晰的图片变清晰（注意使用Microsoft 画图清除右下角的logo）
 
-3.使用 Acrobat 将超分辨的图像合成 PDF 文件，并将文字添加上（宋体、24号）
+3.使用 Acrobat 将超分辨的图像合成 PDF 文件，并将文字添加上（中文为宋体，英文为 Times New Romman）
 
 
 ## 参考
