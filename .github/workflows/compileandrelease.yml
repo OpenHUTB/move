@@ -39,12 +39,13 @@ jobs:
 
       - name: Copy to deploy directory
         run: |
+          cp move.pdf docs/move.pdf
           ls
           echo docs directory:
           ls docs
           echo site directory:
           ls site
-          cp move.pdf docs/move.pdf
+          
       
       - name: Deploy
         if: ${{ github.event_name == 'push' }}
