@@ -26,6 +26,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
+      - name: Copy to deploy directory
+        run: |
+          cp move.pdf docs/move.pdf
+
+
       - name: Build
         uses: Tiryoh/actions-mkdocs@v0
         with:
@@ -37,15 +42,6 @@ jobs:
       # 报错：remote: Permission to donghaiwang/neuro.git denied to github-actions[bot].
       # 解决：启用 Settings -> Actions -> General -> Workflow permissions 中的 "Read and write permissions"
 
-      - name: Copy to deploy directory
-        run: |
-          cp move.pdf site/move.pdf
-          ls
-          echo docs directory:
-          ls docs
-          echo site directory:
-          ls site
-          
       
       - name: Deploy
         if: ${{ github.event_name == 'push' }}
