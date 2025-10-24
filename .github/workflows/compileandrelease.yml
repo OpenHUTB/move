@@ -38,7 +38,7 @@ jobs:
       # 解决：启用 Settings -> Actions -> General -> Workflow permissions 中的 "Read and write permissions"
 
       - name: Copy to deploy directory
-        run: cp move docs/move.pdf
+        run: cp move.pdf docs/move.pdf
       
       - name: Deploy
         if: ${{ github.event_name == 'push' }}
