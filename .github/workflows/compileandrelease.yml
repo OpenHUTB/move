@@ -39,7 +39,7 @@ jobs:
 
       - name: Copy to deploy directory
         run: |
-          cp move.pdf docs/move.pdf
+          cp move.pdf site/move.pdf
           ls
           echo docs directory:
           ls docs
