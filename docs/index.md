@@ -2,6 +2,8 @@ title: 主页
 
 # [运动的生物力学](https://github.com/OpenHUTB/move)
 
+<a href="move.pdf" class="image fit">运动的生物力学.pdf</a>（结构） <span id="brain_behavior"></span>
+
 ## <a href="pdf/00.pdf" class="image fit">内容</a> <span id="content"></span>
 
 | 0   | 1                  | 2               | 3                   |
@@ -179,3 +181,4 @@ title: 主页
 
 * [页面添加PDF](https://stackoverflow.com/questions/69237778/how-to-embed-a-local-pdf-file-in-mkdocs-generated-website-on-github-pages)
 * [书籍内容的建议反馈和修改](https://github.com/OpenHUTB/neuro/issues)
+
